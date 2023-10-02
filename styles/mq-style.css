@@ -90,7 +90,7 @@
 
 @media only screen and (min-width: 768px) {
     main > input{
-        width: 35vw;
+        width: 260px;
         height: 60px;
         font-size: 0.8em;
     }
@@ -115,7 +115,7 @@
 
     #generolabel{
         display: inline-block;
-        transform: translate(320px, -198px);
+        transform: translate(315px, -189px);
     }
     
     #masculino{
@@ -133,11 +133,12 @@
     }
 
     .erro-msg{
-        transform: translate(-360px, 65px);
+        transform: translate(-230px, 65px);
     }
 
     #botao{
-        transform: translate(155px, -163px);
+        transform: translate(130px, -138px);
+        margin-bottom: 80px;
     }
 
     input[type="radio"] {
@@ -163,6 +164,10 @@
         transform: translate(25px,-120px);
         width: 500px;
     }
+    
+    main > p.desc{
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -170,6 +175,10 @@
         width: 35vw;
         height: 60px;
         font-size: 1em;
+    }
+
+    main > p.desc{
+        margin-bottom: 30px;
     }
 
     main > p > label{
@@ -192,29 +201,30 @@
 
     #generolabel{
         display: inline-block;
-        transform: translate(450px, -198px);
+        transform: translate(400px, -198px);
     }
     
     #masculino{
-        transform: translate(450px, -190px);
+        transform: translate(400px, -190px);
     }
     
     #feminino{
-        transform: translate(450px, -190px);
+        transform: translate(400px, -190px);
     }
     
     .gen{
         margin-right: 70px;
-        transform: translate(450px, -190px);
+        transform: translate(400px, -190px);
         font-size: 1.2em;
     }
 
     .erro-msg{
-        transform: translate(-360px, 65px);
+        transform: translate(-300px, 65px);
     }
 
     #botao{
-        transform: translate(210px, -163px);
+        transform: translate(180px, -146px);
+        margin-bottom: 60px;
     }
 
     input[type="radio"] {
@@ -237,7 +247,7 @@
     
     #exp{
         font-size: 1.1em;
-        transform: translate(25px,-120px);
+        transform: translate(0px,-120px);
         width: 700px;
     }
 }
@@ -260,6 +270,10 @@
         font-size:1.4em;
     }
 
+    main > p.desc{
+        margin-bottom: 30px;
+    }
+
     img{
         transform: translateY(-120px);
         max-width: 600px;
@@ -268,7 +282,7 @@
 
     #generolabel{
         display: inline-block;
-        transform: translate(600px, -198px);
+        transform: translate(600px, -195px);
     }
     
     #masculino{
@@ -290,7 +304,8 @@
     }
 
     #botao{
-        transform: translate(250px, -163px);
+        margin-bottom: 50px;
+        transform: translate(250px, -146px);
     }
 
     input[type="radio"] {
